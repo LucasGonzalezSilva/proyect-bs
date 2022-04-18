@@ -1,0 +1,21 @@
+*.container img{
+  height: 300px;
+    align-self: center;
+    transition: heigth 3s;
+}
+
+.container img:hover {
+  height: 320px;
+}
+
+body{
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.footer{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
