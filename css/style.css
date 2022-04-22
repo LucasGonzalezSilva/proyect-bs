@@ -1,21 +1,22 @@
-*.container img{
+*.container img {
   height: 300px;
-    align-self: center;
-    transition: heigth 3s;
+  align-self: center;
+  transition: heigth 3s;
 }
-
-.container img:hover {
+*.container img:hover {
   height: 320px;
 }
 
-body{
+body {
   position: relative;
   min-height: 100vh;
   margin: 0;
 }
 
-.footer{
+.footer {
   position: absolute;
   text-align: center;
   width: 100%;
 }
+
+/*# sourceMappingURL=style.css.map */

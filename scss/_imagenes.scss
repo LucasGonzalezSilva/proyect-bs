@@ -1,0 +1,9 @@
+*.container img{
+    height: 300px;
+      align-self: center;
+      transition: heigth 3s;
+
+      &:hover {
+        height: 320px;
+      }
+  }
