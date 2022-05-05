@@ -1,0 +1,10 @@
+@mixin faq ($fondo, $texto) {
+    background-color:$fondo;
+    color: $texto;
+    
+}
+
+
+.display-2-Titulo{
+    @include faq (rgb(255, 255, 255), rgb(31, 110, 255)) ;
+}

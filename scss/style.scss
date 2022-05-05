@@ -1,5 +1,15 @@
+
+@import "variables";
+
+@import "mixins";
+
 @import "imagenes";
   
   @import "body";
   
  @import "footer" ;
+
+
+ .display-2 {
+  font-weight: map-get($font-weights, bold);
+ }

@@ -1,3 +1,8 @@
+.display-2-Titulo {
+  background-color: rgb(255, 255, 255);
+  color: rgb(31, 110, 255);
+}
+
 *.container img {
   height: 300px;
   align-self: center;
@@ -17,6 +22,10 @@ body {
   position: absolute;
   text-align: center;
   width: 100%;
+}
+
+.display-2 {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
